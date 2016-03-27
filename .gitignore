@@ -35,4 +35,4 @@ node_modules
 typings
 index.js
 index.d.ts
-lib/
+lib/**
