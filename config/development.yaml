@@ -1,0 +1,9 @@
+authServer:
+  refreshTokenDuration: 72
+  accessTokenDuration: 60
+
+test:
+  dbConfig:
+    host: localhost
+    port: 27017
+    dbName: oauth2utils-test

@@ -1,0 +1,33 @@
+
+{
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "outDir": ".",
+    "rootDir": "./src",
+    "declaration": true,
+    "listFiles": true
+  },
+  "files": [
+    "./src/index.ts",
+
+    "./src/lib/misc/errorManager.ts",
+    "./src/lib/misc/utils.ts",
+
+    "./src/lib/model/accessToken.ts",
+    "./src/lib/model/authCode.ts",
+    "./src/lib/model/client.ts",
+    "./src/lib/model/modelManager.ts",
+    "./src/lib/model/refreshToken.ts",
+    "./src/lib/model/user.ts",
+    "./src/lib/model/userDecision.ts",
+
+    "./typings/main.d.ts"
+  ]
+}
